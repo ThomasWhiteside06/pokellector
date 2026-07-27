@@ -1,0 +1,33 @@
+<div 
+    class = "card" 
+    [routerLink] = "['/pokemon', pokemon?.name]" 
+    (mouseenter)="showForms = true; checkFormPosition()" 
+    (mouseleave)="showForms = false"
+>
+    <img 
+        loading = "lazy" 
+        [src]="pokemon?.forms?.[0]?.artwork"
+    >
+    <h2>#{{ pokemon?.id }} {{ pokemon?.name }}</h2>
+    @if(showForms && hasPermanentForms()) {
+        <div 
+            class="forms" 
+            #formsPopup
+        >
+            @for(form of pokemon?.forms ?? []; track form.pokemonId) {
+                @if(isPermanentForm(form)) {
+                    <div 
+                        class="form"
+                        [routerLink]="['/pokemon', form.name]"
+                        (click)="$event.stopPropagation()"
+                    >
+                        <img 
+                            [src]="form.artwork"
+                        >
+                        <p>{{formatFormName(form.formName || form.name)}}</p>
+                    </div>
+                }
+            }
+        </div>
+    }
+</div>

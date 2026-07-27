@@ -1,0 +1,13 @@
+@if (pokemon && pokemonDetails) {
+    <h1>#{{ pokemonDetails.id }} {{ formatPokemonName() }}</h1>
+    <img
+      [src]="selectedForm?.artwork"
+      [alt]="pokemonDetails.name"
+    >
+    <h2>Types</h2>
+    @for(type of pokemon.types; track type.type.name) {
+        <p>{{ type.type.name }}</p>
+    }
+    <p>Height: {{ pokemon.height }}</p>
+    <p>Weight: {{ pokemon.weight }}</p>
+}

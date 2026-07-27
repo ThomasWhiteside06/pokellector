@@ -1,0 +1,6 @@
+<app-nav-bar (searchChanged) = 'searchTerm = $event; filterPokemon()'></app-nav-bar>
+<div class = 'pokemon-container'>
+    @for (pokemon of filteredPokemonList; track pokemon.id) {
+        <app-pokemon-card [pokemon]="pokemon"></app-pokemon-card>
+    }
+</div>

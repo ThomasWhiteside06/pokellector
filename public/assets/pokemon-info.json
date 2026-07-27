@@ -1,0 +1,10778 @@
+[
+  {
+    "id": 1,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 2,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 3,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 4,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 5,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 6,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 7,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 8,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 9,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 10,
+    "types": [
+      "bug"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 11,
+    "types": [
+      "bug"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 12,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 13,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 14,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 15,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 16,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 17,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 18,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 19,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 20,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 21,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 22,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 23,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 24,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 25,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 26,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 27,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 28,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 29,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 30,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 31,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 32,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 33,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 34,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 35,
+    "types": [
+      "fairy"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 36,
+    "types": [
+      "fairy"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 37,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 38,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 39,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 40,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 41,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 42,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 43,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 44,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 45,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 46,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 47,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 48,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 49,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 50,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 51,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 52,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 53,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 54,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 55,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 56,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 57,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 58,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 59,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 60,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 61,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 62,
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 63,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 64,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 65,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 66,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 67,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 68,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 69,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 70,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 71,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 72,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 73,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 74,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 75,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 76,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 77,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 78,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 79,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 80,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 81,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 82,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 83,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 84,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 85,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 86,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 87,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 88,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 89,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 90,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 91,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 92,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 93,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 94,
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 95,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 96,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 97,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 98,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 99,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 100,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 101,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 102,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 103,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 104,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 105,
+    "types": [
+      "ground"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 106,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 107,
+    "types": [
+      "fighting"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 108,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 109,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 110,
+    "types": [
+      "poison"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 111,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 112,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 113,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 114,
+    "types": [
+      "grass"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 115,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 116,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 117,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 118,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 119,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 120,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 121,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 122,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 123,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 124,
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 125,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 126,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 127,
+    "types": [
+      "bug"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 128,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 129,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 130,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 131,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 132,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 133,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 134,
+    "types": [
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 135,
+    "types": [
+      "electric"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 136,
+    "types": [
+      "fire"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 137,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 138,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 139,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 140,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 141,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 142,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 143,
+    "types": [
+      "normal"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 144,
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 145,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 146,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 147,
+    "types": [
+      "dragon"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 148,
+    "types": [
+      "dragon"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 149,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 150,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 151,
+    "types": [
+      "psychic"
+    ],
+    "generation": 1,
+    "region": [
+      "kanto"
+    ]
+  },
+  {
+    "id": 152,
+    "types": [
+      "grass"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 153,
+    "types": [
+      "grass"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 154,
+    "types": [
+      "grass"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 155,
+    "types": [
+      "fire"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 156,
+    "types": [
+      "fire"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 157,
+    "types": [
+      "fire"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 158,
+    "types": [
+      "water"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 159,
+    "types": [
+      "water"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 160,
+    "types": [
+      "water"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 161,
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 162,
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 163,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 164,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 165,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 166,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 167,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 168,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 169,
+    "types": [
+      "poison",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 170,
+    "types": [
+      "water",
+      "electric"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 171,
+    "types": [
+      "water",
+      "electric"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 172,
+    "types": [
+      "electric"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 173,
+    "types": [
+      "fairy"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 174,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 175,
+    "types": [
+      "fairy"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 176,
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 177,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 178,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 179,
+    "types": [
+      "electric"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 180,
+    "types": [
+      "electric"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 181,
+    "types": [
+      "electric"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 182,
+    "types": [
+      "grass"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 183,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 184,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 185,
+    "types": [
+      "rock"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 186,
+    "types": [
+      "water"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 187,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 188,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 189,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 190,
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 191,
+    "types": [
+      "grass"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 192,
+    "types": [
+      "grass"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 193,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 194,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 195,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 196,
+    "types": [
+      "psychic"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 197,
+    "types": [
+      "dark"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 198,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 199,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 200,
+    "types": [
+      "ghost"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 201,
+    "types": [
+      "psychic"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 202,
+    "types": [
+      "psychic"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 203,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 204,
+    "types": [
+      "bug"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 205,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 206,
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 207,
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 208,
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 209,
+    "types": [
+      "fairy"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 210,
+    "types": [
+      "fairy"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 211,
+    "types": [
+      "water",
+      "poison"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 212,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 213,
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 214,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 215,
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 216,
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 217,
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 218,
+    "types": [
+      "fire"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 219,
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 220,
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 221,
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 222,
+    "types": [
+      "water",
+      "rock"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 223,
+    "types": [
+      "water"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 224,
+    "types": [
+      "water"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 225,
+    "types": [
+      "ice",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 226,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 227,
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 228,
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 229,
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 230,
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 231,
+    "types": [
+      "ground"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 232,
+    "types": [
+      "ground"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 233,
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 234,
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 235,
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 236,
+    "types": [
+      "fighting"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 237,
+    "types": [
+      "fighting"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 238,
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 239,
+    "types": [
+      "electric"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 240,
+    "types": [
+      "fire"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 241,
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 242,
+    "types": [
+      "normal"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 243,
+    "types": [
+      "electric"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 244,
+    "types": [
+      "fire"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 245,
+    "types": [
+      "water"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 246,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 247,
+    "types": [
+      "rock",
+      "ground"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 248,
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 249,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 250,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 251,
+    "types": [
+      "psychic",
+      "grass"
+    ],
+    "generation": 2,
+    "region": [
+      "johto"
+    ]
+  },
+  {
+    "id": 252,
+    "types": [
+      "grass"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 253,
+    "types": [
+      "grass"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 254,
+    "types": [
+      "grass"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 255,
+    "types": [
+      "fire"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 256,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 257,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 258,
+    "types": [
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 259,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 260,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 261,
+    "types": [
+      "dark"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 262,
+    "types": [
+      "dark"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 263,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 264,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 265,
+    "types": [
+      "bug"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 266,
+    "types": [
+      "bug"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 267,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 268,
+    "types": [
+      "bug"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 269,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 270,
+    "types": [
+      "water",
+      "grass"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 271,
+    "types": [
+      "water",
+      "grass"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 272,
+    "types": [
+      "water",
+      "grass"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 273,
+    "types": [
+      "grass"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 274,
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 275,
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 276,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 277,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 278,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 279,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 280,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 281,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 282,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 283,
+    "types": [
+      "bug",
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 284,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 285,
+    "types": [
+      "grass"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 286,
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 287,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 288,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 289,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 290,
+    "types": [
+      "bug",
+      "ground"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 291,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 292,
+    "types": [
+      "bug",
+      "ghost"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 293,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 294,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 295,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 296,
+    "types": [
+      "fighting"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 297,
+    "types": [
+      "fighting"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 298,
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 299,
+    "types": [
+      "rock"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 300,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 301,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 302,
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 303,
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 304,
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 305,
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 306,
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 307,
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 308,
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 309,
+    "types": [
+      "electric"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 310,
+    "types": [
+      "electric"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 311,
+    "types": [
+      "electric"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 312,
+    "types": [
+      "electric"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 313,
+    "types": [
+      "bug"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 314,
+    "types": [
+      "bug"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 315,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 316,
+    "types": [
+      "poison"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 317,
+    "types": [
+      "poison"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 318,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 319,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 320,
+    "types": [
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 321,
+    "types": [
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 322,
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 323,
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 324,
+    "types": [
+      "fire"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 325,
+    "types": [
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 326,
+    "types": [
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 327,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 328,
+    "types": [
+      "ground"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 329,
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 330,
+    "types": [
+      "ground",
+      "dragon"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 331,
+    "types": [
+      "grass"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 332,
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 333,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 334,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 335,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 336,
+    "types": [
+      "poison"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 337,
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 338,
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 339,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 340,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 341,
+    "types": [
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 342,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 343,
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 344,
+    "types": [
+      "ground",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 345,
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 346,
+    "types": [
+      "rock",
+      "grass"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 347,
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 348,
+    "types": [
+      "rock",
+      "bug"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 349,
+    "types": [
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 350,
+    "types": [
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 351,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 352,
+    "types": [
+      "normal"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 353,
+    "types": [
+      "ghost"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 354,
+    "types": [
+      "ghost"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 355,
+    "types": [
+      "ghost"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 356,
+    "types": [
+      "ghost"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 357,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 358,
+    "types": [
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 359,
+    "types": [
+      "dark"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 360,
+    "types": [
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 361,
+    "types": [
+      "ice"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 362,
+    "types": [
+      "ice"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 363,
+    "types": [
+      "ice",
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 364,
+    "types": [
+      "ice",
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 365,
+    "types": [
+      "ice",
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 366,
+    "types": [
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 367,
+    "types": [
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 368,
+    "types": [
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 369,
+    "types": [
+      "water",
+      "rock"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 370,
+    "types": [
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 371,
+    "types": [
+      "dragon"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 372,
+    "types": [
+      "dragon"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 373,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 374,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 375,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 376,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 377,
+    "types": [
+      "rock"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 378,
+    "types": [
+      "ice"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 379,
+    "types": [
+      "steel"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 380,
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 381,
+    "types": [
+      "dragon",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 382,
+    "types": [
+      "water"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 383,
+    "types": [
+      "ground"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 384,
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 385,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 386,
+    "types": [
+      "psychic"
+    ],
+    "generation": 3,
+    "region": [
+      "hoenn"
+    ]
+  },
+  {
+    "id": 387,
+    "types": [
+      "grass"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 388,
+    "types": [
+      "grass"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 389,
+    "types": [
+      "grass",
+      "ground"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 390,
+    "types": [
+      "fire"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 391,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 392,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 393,
+    "types": [
+      "water"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 394,
+    "types": [
+      "water"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 395,
+    "types": [
+      "water",
+      "steel"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 396,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 397,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 398,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 399,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 400,
+    "types": [
+      "normal",
+      "water"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 401,
+    "types": [
+      "bug"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 402,
+    "types": [
+      "bug"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 403,
+    "types": [
+      "electric"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 404,
+    "types": [
+      "electric"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 405,
+    "types": [
+      "electric"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 406,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 407,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 408,
+    "types": [
+      "rock"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 409,
+    "types": [
+      "rock"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 410,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 411,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 412,
+    "types": [
+      "bug"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 413,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 414,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 415,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 416,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 417,
+    "types": [
+      "electric"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 418,
+    "types": [
+      "water"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 419,
+    "types": [
+      "water"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 420,
+    "types": [
+      "grass"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 421,
+    "types": [
+      "grass"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 422,
+    "types": [
+      "water"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 423,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 424,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 425,
+    "types": [
+      "ghost",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 426,
+    "types": [
+      "ghost",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 427,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 428,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 429,
+    "types": [
+      "ghost"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 430,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 431,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 432,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 433,
+    "types": [
+      "psychic"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 434,
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 435,
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 436,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 437,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 438,
+    "types": [
+      "rock"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 439,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 440,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 441,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 442,
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 443,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 444,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 445,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 446,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 447,
+    "types": [
+      "fighting"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 448,
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 449,
+    "types": [
+      "ground"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 450,
+    "types": [
+      "ground"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 451,
+    "types": [
+      "poison",
+      "bug"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 452,
+    "types": [
+      "poison",
+      "dark"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 453,
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 454,
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 455,
+    "types": [
+      "grass"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 456,
+    "types": [
+      "water"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 457,
+    "types": [
+      "water"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 458,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 459,
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 460,
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 461,
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 462,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 463,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 464,
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 465,
+    "types": [
+      "grass"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 466,
+    "types": [
+      "electric"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 467,
+    "types": [
+      "fire"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 468,
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 469,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 470,
+    "types": [
+      "grass"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 471,
+    "types": [
+      "ice"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 472,
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 473,
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 474,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 475,
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 476,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 477,
+    "types": [
+      "ghost"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 478,
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 479,
+    "types": [
+      "electric",
+      "ghost"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 480,
+    "types": [
+      "psychic"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 481,
+    "types": [
+      "psychic"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 482,
+    "types": [
+      "psychic"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 483,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 484,
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 485,
+    "types": [
+      "fire",
+      "steel"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 486,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 487,
+    "types": [
+      "ghost",
+      "dragon"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 488,
+    "types": [
+      "psychic"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 489,
+    "types": [
+      "water"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 490,
+    "types": [
+      "water"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 491,
+    "types": [
+      "dark"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 492,
+    "types": [
+      "grass"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 493,
+    "types": [
+      "normal"
+    ],
+    "generation": 4,
+    "region": [
+      "sinnoh"
+    ]
+  },
+  {
+    "id": 494,
+    "types": [
+      "psychic",
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 495,
+    "types": [
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 496,
+    "types": [
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 497,
+    "types": [
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 498,
+    "types": [
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 499,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 500,
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 501,
+    "types": [
+      "water"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 502,
+    "types": [
+      "water"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 503,
+    "types": [
+      "water"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 504,
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 505,
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 506,
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 507,
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 508,
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 509,
+    "types": [
+      "dark"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 510,
+    "types": [
+      "dark"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 511,
+    "types": [
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 512,
+    "types": [
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 513,
+    "types": [
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 514,
+    "types": [
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 515,
+    "types": [
+      "water"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 516,
+    "types": [
+      "water"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 517,
+    "types": [
+      "psychic"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 518,
+    "types": [
+      "psychic"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 519,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 520,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 521,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 522,
+    "types": [
+      "electric"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 523,
+    "types": [
+      "electric"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 524,
+    "types": [
+      "rock"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 525,
+    "types": [
+      "rock"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 526,
+    "types": [
+      "rock"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 527,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 528,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 529,
+    "types": [
+      "ground"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 530,
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 531,
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 532,
+    "types": [
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 533,
+    "types": [
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 534,
+    "types": [
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 535,
+    "types": [
+      "water"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 536,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 537,
+    "types": [
+      "water",
+      "ground"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 538,
+    "types": [
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 539,
+    "types": [
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 540,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 541,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 542,
+    "types": [
+      "bug",
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 543,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 544,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 545,
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 546,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 547,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 548,
+    "types": [
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 549,
+    "types": [
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 550,
+    "types": [
+      "water"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 551,
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 552,
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 553,
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 554,
+    "types": [
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 555,
+    "types": [
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 556,
+    "types": [
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 557,
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 558,
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 559,
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 560,
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 561,
+    "types": [
+      "psychic",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 562,
+    "types": [
+      "ghost"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 563,
+    "types": [
+      "ghost"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 564,
+    "types": [
+      "water",
+      "rock"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 565,
+    "types": [
+      "water",
+      "rock"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 566,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 567,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 568,
+    "types": [
+      "poison"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 569,
+    "types": [
+      "poison"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 570,
+    "types": [
+      "dark"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 571,
+    "types": [
+      "dark"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 572,
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 573,
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 574,
+    "types": [
+      "psychic"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 575,
+    "types": [
+      "psychic"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 576,
+    "types": [
+      "psychic"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 577,
+    "types": [
+      "psychic"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 578,
+    "types": [
+      "psychic"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 579,
+    "types": [
+      "psychic"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 580,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 581,
+    "types": [
+      "water",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 582,
+    "types": [
+      "ice"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 583,
+    "types": [
+      "ice"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 584,
+    "types": [
+      "ice"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 585,
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 586,
+    "types": [
+      "normal",
+      "grass"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 587,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 588,
+    "types": [
+      "bug"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 589,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 590,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 591,
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 592,
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 593,
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 594,
+    "types": [
+      "water"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 595,
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 596,
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 597,
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 598,
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 599,
+    "types": [
+      "steel"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 600,
+    "types": [
+      "steel"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 601,
+    "types": [
+      "steel"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 602,
+    "types": [
+      "electric"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 603,
+    "types": [
+      "electric"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 604,
+    "types": [
+      "electric"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 605,
+    "types": [
+      "psychic"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 606,
+    "types": [
+      "psychic"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 607,
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 608,
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 609,
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 610,
+    "types": [
+      "dragon"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 611,
+    "types": [
+      "dragon"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 612,
+    "types": [
+      "dragon"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 613,
+    "types": [
+      "ice"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 614,
+    "types": [
+      "ice"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 615,
+    "types": [
+      "ice"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 616,
+    "types": [
+      "bug"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 617,
+    "types": [
+      "bug"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 618,
+    "types": [
+      "ground",
+      "electric"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 619,
+    "types": [
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 620,
+    "types": [
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 621,
+    "types": [
+      "dragon"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 622,
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 623,
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 624,
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 625,
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 626,
+    "types": [
+      "normal"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 627,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 628,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 629,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 630,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 631,
+    "types": [
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 632,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 633,
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 634,
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 635,
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 636,
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 637,
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 638,
+    "types": [
+      "steel",
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 639,
+    "types": [
+      "rock",
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 640,
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 641,
+    "types": [
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 642,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 643,
+    "types": [
+      "dragon",
+      "fire"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 644,
+    "types": [
+      "dragon",
+      "electric"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 645,
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 646,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 647,
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 648,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 649,
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "generation": 5,
+    "region": [
+      "unova"
+    ]
+  },
+  {
+    "id": 650,
+    "types": [
+      "grass"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 651,
+    "types": [
+      "grass"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 652,
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 653,
+    "types": [
+      "fire"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 654,
+    "types": [
+      "fire"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 655,
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 656,
+    "types": [
+      "water"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 657,
+    "types": [
+      "water"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 658,
+    "types": [
+      "water",
+      "dark"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 659,
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 660,
+    "types": [
+      "normal",
+      "ground"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 661,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 662,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 663,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 664,
+    "types": [
+      "bug"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 665,
+    "types": [
+      "bug"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 666,
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 667,
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 668,
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 669,
+    "types": [
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 670,
+    "types": [
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 671,
+    "types": [
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 672,
+    "types": [
+      "grass"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 673,
+    "types": [
+      "grass"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 674,
+    "types": [
+      "fighting"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 675,
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 676,
+    "types": [
+      "normal"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 677,
+    "types": [
+      "psychic"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 678,
+    "types": [
+      "psychic"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 679,
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 680,
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 681,
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 682,
+    "types": [
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 683,
+    "types": [
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 684,
+    "types": [
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 685,
+    "types": [
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 686,
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 687,
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 688,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 689,
+    "types": [
+      "rock",
+      "water"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 690,
+    "types": [
+      "poison",
+      "water"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 691,
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 692,
+    "types": [
+      "water"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 693,
+    "types": [
+      "water"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 694,
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 695,
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 696,
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 697,
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 698,
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 699,
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 700,
+    "types": [
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 701,
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 702,
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 703,
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 704,
+    "types": [
+      "dragon"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 705,
+    "types": [
+      "dragon"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 706,
+    "types": [
+      "dragon"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 707,
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 708,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 709,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 710,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 711,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 712,
+    "types": [
+      "ice"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 713,
+    "types": [
+      "ice"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 714,
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 715,
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 716,
+    "types": [
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 717,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 718,
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 719,
+    "types": [
+      "rock",
+      "fairy"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 720,
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 721,
+    "types": [
+      "fire",
+      "water"
+    ],
+    "generation": 6,
+    "region": [
+      "kalos"
+    ]
+  },
+  {
+    "id": 722,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 723,
+    "types": [
+      "grass",
+      "flying"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 724,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 725,
+    "types": [
+      "fire"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 726,
+    "types": [
+      "fire"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 727,
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 728,
+    "types": [
+      "water"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 729,
+    "types": [
+      "water"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 730,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 731,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 732,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 733,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 734,
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 735,
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 736,
+    "types": [
+      "bug"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 737,
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 738,
+    "types": [
+      "bug",
+      "electric"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 739,
+    "types": [
+      "fighting"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 740,
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 741,
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 742,
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 743,
+    "types": [
+      "bug",
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 744,
+    "types": [
+      "rock"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 745,
+    "types": [
+      "rock"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 746,
+    "types": [
+      "water"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 747,
+    "types": [
+      "poison",
+      "water"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 748,
+    "types": [
+      "poison",
+      "water"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 749,
+    "types": [
+      "ground"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 750,
+    "types": [
+      "ground"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 751,
+    "types": [
+      "water",
+      "bug"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 752,
+    "types": [
+      "water",
+      "bug"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 753,
+    "types": [
+      "grass"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 754,
+    "types": [
+      "grass"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 755,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 756,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 757,
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 758,
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 759,
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 760,
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 761,
+    "types": [
+      "grass"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 762,
+    "types": [
+      "grass"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 763,
+    "types": [
+      "grass"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 764,
+    "types": [
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 765,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 766,
+    "types": [
+      "fighting"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 767,
+    "types": [
+      "bug",
+      "water"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 768,
+    "types": [
+      "bug",
+      "water"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 769,
+    "types": [
+      "ghost",
+      "ground"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 770,
+    "types": [
+      "ghost",
+      "ground"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 771,
+    "types": [
+      "water"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 772,
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 773,
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 774,
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 775,
+    "types": [
+      "normal"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 776,
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 777,
+    "types": [
+      "electric",
+      "steel"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 778,
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 779,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 780,
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 781,
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 782,
+    "types": [
+      "dragon"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 783,
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 784,
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 785,
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 786,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 787,
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 788,
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 789,
+    "types": [
+      "psychic"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 790,
+    "types": [
+      "psychic"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 791,
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 792,
+    "types": [
+      "psychic",
+      "ghost"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 793,
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 794,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 795,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 796,
+    "types": [
+      "electric"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 797,
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 798,
+    "types": [
+      "grass",
+      "steel"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 799,
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 800,
+    "types": [
+      "psychic"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 801,
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 802,
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 803,
+    "types": [
+      "poison"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 804,
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 805,
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 806,
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 807,
+    "types": [
+      "electric"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 808,
+    "types": [
+      "steel"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 809,
+    "types": [
+      "steel"
+    ],
+    "generation": 7,
+    "region": [
+      "alola"
+    ]
+  },
+  {
+    "id": 810,
+    "types": [
+      "grass"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 811,
+    "types": [
+      "grass"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 812,
+    "types": [
+      "grass"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 813,
+    "types": [
+      "fire"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 814,
+    "types": [
+      "fire"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 815,
+    "types": [
+      "fire"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 816,
+    "types": [
+      "water"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 817,
+    "types": [
+      "water"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 818,
+    "types": [
+      "water"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 819,
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 820,
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 821,
+    "types": [
+      "flying"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 822,
+    "types": [
+      "flying"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 823,
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 824,
+    "types": [
+      "bug"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 825,
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 826,
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 827,
+    "types": [
+      "dark"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 828,
+    "types": [
+      "dark"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 829,
+    "types": [
+      "grass"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 830,
+    "types": [
+      "grass"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 831,
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 832,
+    "types": [
+      "normal"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 833,
+    "types": [
+      "water"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 834,
+    "types": [
+      "water",
+      "rock"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 835,
+    "types": [
+      "electric"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 836,
+    "types": [
+      "electric"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 837,
+    "types": [
+      "rock"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 838,
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 839,
+    "types": [
+      "rock",
+      "fire"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 840,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 841,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 842,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 843,
+    "types": [
+      "ground"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 844,
+    "types": [
+      "ground"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 845,
+    "types": [
+      "flying",
+      "water"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 846,
+    "types": [
+      "water"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 847,
+    "types": [
+      "water"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 848,
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 849,
+    "types": [
+      "electric",
+      "poison"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 850,
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 851,
+    "types": [
+      "fire",
+      "bug"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 852,
+    "types": [
+      "fighting"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 853,
+    "types": [
+      "fighting"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 854,
+    "types": [
+      "ghost"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 855,
+    "types": [
+      "ghost"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 856,
+    "types": [
+      "psychic"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 857,
+    "types": [
+      "psychic"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 858,
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 859,
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 860,
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 861,
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 862,
+    "types": [
+      "dark",
+      "normal"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 863,
+    "types": [
+      "steel"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 864,
+    "types": [
+      "ghost"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 865,
+    "types": [
+      "fighting"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 866,
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 867,
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 868,
+    "types": [
+      "fairy"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 869,
+    "types": [
+      "fairy"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 870,
+    "types": [
+      "fighting"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 871,
+    "types": [
+      "electric"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 872,
+    "types": [
+      "ice",
+      "bug"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 873,
+    "types": [
+      "ice",
+      "bug"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 874,
+    "types": [
+      "rock"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 875,
+    "types": [
+      "ice"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 876,
+    "types": [
+      "psychic",
+      "normal"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 877,
+    "types": [
+      "electric",
+      "dark"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 878,
+    "types": [
+      "steel"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 879,
+    "types": [
+      "steel"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 880,
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 881,
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 882,
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 883,
+    "types": [
+      "water",
+      "ice"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 884,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 885,
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 886,
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 887,
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 888,
+    "types": [
+      "fairy"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 889,
+    "types": [
+      "fighting"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 890,
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 891,
+    "types": [
+      "fighting"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 892,
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 893,
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 894,
+    "types": [
+      "electric"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 895,
+    "types": [
+      "dragon"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 896,
+    "types": [
+      "ice"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 897,
+    "types": [
+      "ghost"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 898,
+    "types": [
+      "psychic",
+      "grass"
+    ],
+    "generation": 8,
+    "region": [
+      "galar"
+    ]
+  },
+  {
+    "id": 899,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "generation": 8,
+    "region": [
+      "hisui"
+    ]
+  },
+  {
+    "id": 900,
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "generation": 8,
+    "region": [
+      "hisui"
+    ]
+  },
+  {
+    "id": 901,
+    "types": [
+      "ground",
+      "normal"
+    ],
+    "generation": 8,
+    "region": [
+      "hisui"
+    ]
+  },
+  {
+    "id": 902,
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "generation": 8,
+    "region": [
+      "hisui"
+    ]
+  },
+  {
+    "id": 903,
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "generation": 8,
+    "region": [
+      "hisui"
+    ]
+  },
+  {
+    "id": 904,
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "generation": 8,
+    "region": [
+      "hisui"
+    ]
+  },
+  {
+    "id": 905,
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "generation": 8,
+    "region": [
+      "hisui"
+    ]
+  },
+  {
+    "id": 906,
+    "types": [
+      "grass"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 907,
+    "types": [
+      "grass"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 908,
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 909,
+    "types": [
+      "fire"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 910,
+    "types": [
+      "fire"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 911,
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 912,
+    "types": [
+      "water"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 913,
+    "types": [
+      "water"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 914,
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 915,
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 916,
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 917,
+    "types": [
+      "bug"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 918,
+    "types": [
+      "bug"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 919,
+    "types": [
+      "bug"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 920,
+    "types": [
+      "bug",
+      "dark"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 921,
+    "types": [
+      "electric"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 922,
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 923,
+    "types": [
+      "electric",
+      "fighting"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 924,
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 925,
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 926,
+    "types": [
+      "fairy"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 927,
+    "types": [
+      "fairy"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 928,
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 929,
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 930,
+    "types": [
+      "grass",
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 931,
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 932,
+    "types": [
+      "rock"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 933,
+    "types": [
+      "rock"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 934,
+    "types": [
+      "rock"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 935,
+    "types": [
+      "fire"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 936,
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 937,
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 938,
+    "types": [
+      "electric"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 939,
+    "types": [
+      "electric"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 940,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 941,
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 942,
+    "types": [
+      "dark"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 943,
+    "types": [
+      "dark"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 944,
+    "types": [
+      "poison",
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 945,
+    "types": [
+      "poison",
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 946,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 947,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 948,
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 949,
+    "types": [
+      "ground",
+      "grass"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 950,
+    "types": [
+      "rock"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 951,
+    "types": [
+      "grass"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 952,
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 953,
+    "types": [
+      "bug"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 954,
+    "types": [
+      "bug",
+      "psychic"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 955,
+    "types": [
+      "psychic"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 956,
+    "types": [
+      "psychic"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 957,
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 958,
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 959,
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 960,
+    "types": [
+      "water"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 961,
+    "types": [
+      "water"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 962,
+    "types": [
+      "flying",
+      "dark"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 963,
+    "types": [
+      "water"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 964,
+    "types": [
+      "water"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 965,
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 966,
+    "types": [
+      "steel",
+      "poison"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 967,
+    "types": [
+      "dragon",
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 968,
+    "types": [
+      "steel"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 969,
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 970,
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 971,
+    "types": [
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 972,
+    "types": [
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 973,
+    "types": [
+      "flying",
+      "fighting"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 974,
+    "types": [
+      "ice"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 975,
+    "types": [
+      "ice"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 976,
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 977,
+    "types": [
+      "water"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 978,
+    "types": [
+      "dragon",
+      "water"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 979,
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 980,
+    "types": [
+      "poison",
+      "ground"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 981,
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 982,
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 983,
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 984,
+    "types": [
+      "ground",
+      "fighting"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 985,
+    "types": [
+      "fairy",
+      "psychic"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 986,
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 987,
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 988,
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 989,
+    "types": [
+      "electric",
+      "ground"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 990,
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 991,
+    "types": [
+      "ice",
+      "water"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 992,
+    "types": [
+      "fighting",
+      "electric"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 993,
+    "types": [
+      "dark",
+      "flying"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 994,
+    "types": [
+      "fire",
+      "poison"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 995,
+    "types": [
+      "rock",
+      "electric"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 996,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 997,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 998,
+    "types": [
+      "dragon",
+      "ice"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 999,
+    "types": [
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1000,
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1001,
+    "types": [
+      "dark",
+      "grass"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1002,
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1003,
+    "types": [
+      "dark",
+      "ground"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1004,
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1005,
+    "types": [
+      "dragon",
+      "dark"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1006,
+    "types": [
+      "fairy",
+      "fighting"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1007,
+    "types": [
+      "fighting",
+      "dragon"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1008,
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1009,
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1010,
+    "types": [
+      "grass",
+      "psychic"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1011,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1012,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1013,
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1014,
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1015,
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1016,
+    "types": [
+      "poison",
+      "fairy"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1017,
+    "types": [
+      "grass"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1018,
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1019,
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1020,
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1021,
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1022,
+    "types": [
+      "rock",
+      "psychic"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1023,
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1024,
+    "types": [
+      "normal"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  },
+  {
+    "id": 1025,
+    "types": [
+      "poison",
+      "ghost"
+    ],
+    "generation": 9,
+    "region": [
+      "paldea"
+    ]
+  }
+]
