@@ -11,7 +11,6 @@ import { PokemonListItem, PokemonForms, PokemonForm } from '../models/pokemon-li
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
-
 export class Home implements OnInit{
   constructor(private pokemonService: PokemonService, private cdr: ChangeDetectorRef) {}
   pokemonList: PokemonListItem[] = [];
@@ -29,31 +28,11 @@ export class Home implements OnInit{
     });
   }
 
-  filterPokemon() {
-    const search = this.searchTerm.toLowerCase().trim();
-    if (!search) {
-      this.filteredPokemonList = [...this.pokemonList];
-      return;
-    }
-    
-    const matchesFilter = (pokemon: PokemonListItem, filter: string) => {
-      if (filter === "none") {return pokemon.types.length === 1}
-      const genMatch = filter.match(/^(?:gen|generation|g)\s*(\d+)$/);
-      if (genMatch) {return pokemon.generation === Number(genMatch[1]);}
-      if (pokemon.region.includes(filter)) {return true;}
-      if (pokemon.id.toString().includes(filter)) {return true;}
-      if (pokemon.name.includes(filter)) {return true}
-      if (pokemon.types.includes(filter)) {return true;}
-      return false;
-    }
-    if (search.includes("&")) {
-      const filters = search.split("&").map(x => x.trim())
-      this.filteredPokemonList = this.pokemonList.filter(pokemon =>filters.every(filter => matchesFilter(pokemon, filter)))
-    } else if (search.includes(",")) {
-      const filters = search.split(",").map(x => x.trim())
-      this.filteredPokemonList = this.pokemonList.filter(pokemon =>filters.some(filter => matchesFilter(pokemon, filter)))
-    } else {
-      this.filteredPokemonList = this.pokemonList.filter(pokemon =>matchesFilter(pokemon, search))
-    }
+  onSearch(search: string) {
+    this.filteredPokemonList = this.pokemonService.filterPokemon(this.pokemonList, search);
+  }
+
+  sortPokemon(sort: string) {
+    if(sort === 'name') {this.filteredPokemonList.sort((a,b) =>a.name.localeCompare(b.name));} else {this.filteredPokemonList.sort((a,b) =>a.id - b.id);}
   }
 }

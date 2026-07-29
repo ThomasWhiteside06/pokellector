@@ -1,0 +1,18 @@
+.uncaught{
+    filter:grayscale(100%);
+    opacity:0.4;
+}
+
+.gender-toggle {
+    margin-left: 20px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background: white;
+    font-weight: bold;
+}
+
+.gender-toggle:hover {
+    background: #eee;
+}

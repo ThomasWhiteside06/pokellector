@@ -1,32 +1,23 @@
-<div 
-    class = "card" 
-    [routerLink] = "['/pokemon', pokemon?.name]" 
-    (mouseenter)="showForms = true; checkFormPosition()" 
-    (mouseleave)="showForms = false"
->
-    <img 
-        loading = "lazy" 
-        [src]="pokemon?.forms?.[0]?.artwork"
-    >
-    <h2>#{{ pokemon?.id }} {{ pokemon?.name }}</h2>
-    @if(showForms && hasPermanentForms()) {
-        <div 
-            class="forms" 
-            #formsPopup
-        >
-            @for(form of pokemon?.forms ?? []; track form.pokemonId) {
-                @if(isPermanentForm(form)) {
-                    <div 
-                        class="form"
-                        [routerLink]="['/pokemon', form.name]"
-                        (click)="$event.stopPropagation()"
-                    >
-                        <img 
-                            [src]="form.artwork"
-                        >
-                        <p>{{formatFormName(form.formName || form.name)}}</p>
-                    </div>
-                }
+<div class = "card" [class.uncaught]="collection &&!isCaught()&& !isShiny()" [class.caught]="collection &&isCaught() && !isShiny()" [class.shiny]="collection &&isShiny()" [routerLink] = "['/pokemon', getDefaultRoute()]" (mouseenter)="showFormPopup && (showForms = true); checkFormPosition()"(mouseleave)="showFormPopup && (showForms = false)">
+    <img loading = "lazy" [src]= "getArtwork()">
+    <h2>#{{ pokemon?.id }} {{ pokemon?.name }}
+        @if(gender) {
+            {{ gender === 'male' ? ' ♂' : ' ♀' }}
+        }
+    </h2>
+    @if(collection) {
+        <div class="collection-buttons">
+            <button class = 'caught-button' [class.caught-active]="isCaught()" (click)="toggleCaught(); $event.stopPropagation()">Caught</button>
+            <button class = 'shiny-button' [class.shiny-active]="isShiny()" (click)="toggleShiny(); $event.stopPropagation()">Shiny</button>
+        </div>
+    }
+    @if(showFormPopup && showForms && hasPermanentForms()) {
+        <div class="forms" #formsPopup>
+            @for(form of visibleForms(); track form.pokemonId) {
+                <div class="form" [routerLink]="['/pokemon', form.name]" (click)="$event.stopPropagation()">
+                    <img [src]="form.artwork">
+                    <p>{{formatFormName(form.formName || form.name)}}</p>
+                </div>
             }
         </div>
     }

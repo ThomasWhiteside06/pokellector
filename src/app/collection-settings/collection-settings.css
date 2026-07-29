@@ -1,0 +1,159 @@
+.collection-builder {
+    display: flex;
+    gap: 30px;
+    width: 100%;
+    height: calc(100vh - 150px);
+}
+
+
+.pokemon-selection {
+    flex: 1;
+    height: calc(100vh - 100px);
+    overflow-y: auto;
+    z-index: 10;
+}
+
+
+.selected-pokemon { 
+    width: 350px;
+    border-left: 1px solid gray;
+    padding-left: 20px;
+    position: sticky;
+    top: 10px;
+    height: calc(100vh);
+    box-sizing: border-box;
+    overflow-y: auto;
+    translate: 0px -100px;
+    z-index: 10;
+    text-align: center;
+}
+
+
+.search-result,
+.selected-card {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+
+.search-result:hover {
+    background: #f2f2f2;
+}
+
+
+.selected-card {
+    border-bottom: 1px solid #ddd;
+}
+
+
+.selected-card button {
+    margin-left: auto;
+    font-size: 1rem;
+}
+
+.selection-header {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 10;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.search-result.selected {
+    background-color: #c8f7c5;
+}
+
+.range-start {
+    background-color: #ffe58a;
+    border: 2px solid orange;
+}
+
+.toggle-range-button {
+    height: 45px;
+    border: none;
+    border-radius: 8px;
+    padding: 0 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+
+.toggle-range-button:hover {
+    background-color: #eeeeee;
+}
+
+.select-all-button {
+    white-space: nowrap;
+    font-size: 1.2rem;
+    height: 45px;
+    padding: 0 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.select-all-button:hover {
+    background-color: #eeeeee;
+}
+
+.title {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+    text-align: center;
+    translate: -175px;
+}
+
+.name-input {
+    margin-right: 10px;
+    font-size: 1.2rem;
+    height: 30px;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.name-button {
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 14px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.back-button {
+    margin-bottom: 10px;
+    border: none;
+    background: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.back-button:hover {
+    color: gray;
+}
+
+.gender-toggle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.gender-toggle input {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+

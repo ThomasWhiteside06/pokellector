@@ -1,30 +1,36 @@
 const fs = require("fs");
 
-fetch("https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png")
-  .then(res => console.log("Test:", res.status, res.ok))
-  .catch(err => console.log("Test error:", err));
-
 async function getArtwork(pokemonData) {
   const id = pokemonData.id;
   const name = pokemonData.name;
-  const officialArtwork =`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
-  const formSprite =`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${name}.png`;
-  const homeSprite =`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${id}.png`;
+
+  const officialArtwork =
+    `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${id}.png`;
+
+  const formSprite =
+    `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${name}.png`;
+
+  const homeSprite =
+    `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/${id}.png`;
+
   try {
     const officialResponse = await fetch(officialArtwork);
-    if (officialResponse.ok) {return officialArtwork;}
+    if (officialResponse.ok) return officialArtwork;
+
     const homeResponse = await fetch(homeSprite);
-    if (homeResponse.ok) {return homeSprite;}
+    if (homeResponse.ok) return homeSprite;
+
     const formResponse = await fetch(formSprite);
-    if (formResponse.ok) {return formSprite;}
+    if (formResponse.ok) return formSprite;
   } catch (error) {
     console.log(`Artwork failed for ${name}`, error);
   }
+
   return null;
 }
 
 async function generate() {
-  // Get every form
+
   const listResponse = await fetch(
     "https://pokeapi.co/api/v2/pokemon-form?limit=2000"
   );
@@ -36,14 +42,13 @@ async function generate() {
   let completed = 0;
 
   for (const formEntry of list.results) {
+
     const formResponse = await fetch(formEntry.url);
     const formData = await formResponse.json();
 
-    // Fetch the Pokémon this form belongs to
     const pokemonResponse = await fetch(formData.pokemon.url);
     const pokemonData = await pokemonResponse.json();
 
-    // Get the species ID from the URL
     const speciesUrl = pokemonData.species.url;
     const speciesId = Number(
       speciesUrl.split("/").filter(Boolean).pop()
@@ -57,6 +62,23 @@ async function generate() {
       });
     }
 
+    const artwork =
+      await getArtwork(pokemonData) ??
+      formData.sprites.front_default;
+
+    const shinyArtwork =
+      `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/${pokemonData.id}.png`;
+
+    const femaleArtwork =
+      pokemonData.sprites.other?.home?.front_female ??
+      pokemonData.sprites.front_female ??
+      undefined;
+
+    const femaleShinyArtwork =
+      pokemonData.sprites.other?.home?.front_shiny_female ??
+      pokemonData.sprites.front_shiny_female ??
+      undefined;
+
     speciesMap.get(speciesId).forms.push({
       id: formData.id,
       pokemonId: pokemonData.id,
@@ -66,12 +88,24 @@ async function generate() {
       isBattleOnly: formData.is_battle_only,
       isMega: formData.is_mega,
       types: pokemonData.types.map(t => t.type.name),
-      artwork: await getArtwork(pokemonData) ?? formData.sprites.front_default
+
+      artwork,
+      shinyArtwork,
+
+      femaleArtwork,
+      femaleShinyArtwork,
+
+      hasGenderDifference: !!femaleArtwork
     });
 
     completed++;
 
-    console.log(`${completed}/${list.results.length}`);
+    console.log(
+      `${completed}/${list.results.length} ${pokemonData.name} ${
+        femaleArtwork ? "✓ female" : ""
+      }`
+    );
+
     await new Promise(resolve => setTimeout(resolve, 100));
   }
 

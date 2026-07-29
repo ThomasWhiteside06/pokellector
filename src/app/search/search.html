@@ -1,0 +1,16 @@
+<input
+    type="text"
+    id="search-bar"
+    placeholder="Search..."
+    (input)="onSearch($event)"
+>
+@if(showDropdown && searchResults.length) {
+    <div class="search-results">
+        @for(result of searchResults; track result.name) {
+            <div class="search-result" (click)="selectPokemon(result)">
+                <img [src]="result.artwork" width="50">
+                <span>{{formatPokemonName(result.name)}}</span>
+            </div>
+        }   
+    </div>
+}

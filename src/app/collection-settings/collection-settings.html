@@ -1,0 +1,59 @@
+<h1 class = 'title'>New Collection</h1>
+<button class="back-button" (click)="goBack()">← Back</button>
+<div class="collection-builder">
+    <div class="pokemon-selection">
+        <div class = 'selection-header'>
+            <h2>Select Pokémon</h2>
+            <app-search
+                [pokemonList]="pokemonList"
+                [showDropdown]="false"
+                [includeForms]="true"
+                [navigateOnSelect]="false"
+                (searchChanged)="filterSelectionList($event)">
+            </app-search>
+            <button class = 'toggle-range-button' (click)="toggleAllSelectionMode()">{{toggleAllMode ? 'Select Range...' : 'Toggle Range'}}</button>
+            <button class="select-all-button" (click)="selectAllPokemon()">{{selectedForms.length === displayPokemon.length ? 'Clear All' : 'Select All'}}</button>
+            <label class="gender-toggle"><input type="checkbox" [(ngModel)]="showGenderDifferences">Show Gender Differences</label>
+        </div>
+        @for(result of filteredPokemon; track result.name) {
+            <div class="search-result" [class.selected]="isSelected(result)"  [class.range-start]="isToggleStart(result)" (click)="selectPokemon(result)">
+                <img [src]="result.artwork" width="50">
+                <span>{{formatName(result.pokemonName)}}
+                    @if(result.name !== result.pokemonName && formatFormName(result.name, result.pokemonName)) {
+                        ({{formatFormName(result.name, result.pokemonName)}})
+                    }
+                </span>
+                @if(isSelected(result)) {
+                    ✓
+                }
+            </div>
+        }
+    </div>
+    <div class="selected-pokemon">
+        <div class = 'add-name'>
+            <input class = 'name-input' type="text" placeholder="Collection Name..." [(ngModel)]="collectionName">
+            <button class = 'name-button' (click)="createCollection()">Create Collection</button>
+        </div>
+        <h2>Selected Pokémon ({{selectedForms.length}})</h2>
+        @for(pokemon of selectedForms; track pokemon.name) {
+            <div class="selected-card">
+                <img 
+                    [src]="pokemon.artwork"
+                    width="50"
+                >
+                <span>
+                    {{formatName(pokemon.pokemonName)}}
+                    @if(pokemon.name !== pokemon.pokemonName && formatFormName(pokemon.name, pokemon.pokemonName)) {
+                        ({{formatFormName(pokemon.name, pokemon.pokemonName)}})
+                    }
+                </span>
+                <button 
+                    (click)="togglePokemon(pokemon)"
+                >
+                    Remove
+                </button>
+
+            </div>
+        }
+    </div>
+</div>

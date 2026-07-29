@@ -64,3 +64,72 @@ h2 {
 .form:hover p {
   color: gray;
 }
+
+.card.uncaught {
+    filter: grayscale(100%);
+    opacity: 0.45;
+    background-color: gray;
+    border: 3px solid black;
+}
+
+.card.caught {
+    background-color: lightgreen;
+    border: 3px solid black;
+}
+
+.card.shiny {
+    background-color: gold;
+    border: 3px solid black;
+}
+
+.collection-buttons {
+    display:flex;
+    gap:5px;
+    justify-content: center;
+}
+
+.collection-buttons button {
+    cursor:pointer;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.collection-buttons button:hover {
+    color: gray;
+}
+
+.caught-button {
+    background-color: white;
+    border: 1px solid green;
+    color: green;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+
+.caught-button.caught-active {
+    background-color: #4caf50;
+    color: white;
+}
+
+
+.shiny-button {
+    background-color: white;
+    border: 1px solid gold;
+    color: goldenrod;
+    border-radius: 8px;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.shiny-button.shiny-active {
+    background-color: #ffd700;
+    color: black;
+}
+
+.gender-label {
+    font-size: 0.8rem;
+    margin-left: 8px;
+    opacity: 0.7;
+}

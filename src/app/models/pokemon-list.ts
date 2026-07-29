@@ -42,4 +42,23 @@ export interface PokemonForm {
   isMega: boolean;
   types: string[];
   artwork: string;
+  shinyArtwork:string;
+  femaleArtwork?: string;
+  femaleShinyArtwork?: string;
+  hasGenderDifference: boolean;
+}
+
+export interface PokemonSearchResult {
+  id: number;
+  name: string;
+  artwork: string;
+  pokemonName: string;
+}
+
+export interface CollectionDisplayPokemon {
+  pokemon: PokemonListItem;
+  artwork: string;
+  shinyArtwork?: string;
+  formName: string;
+  gender?: 'male' | 'female'
 }

@@ -1,0 +1,45 @@
+<div class="collections-page">
+    <div class="collections-container">
+        <div class="collections-header">
+            <button class="back-button" (click)="goBack()">← Back</button>
+            <h1 class="title">Collections</h1>
+        </div>
+        <div class="collections-grid">
+            @if (collections.length === 0) {
+            <div class="no-collections">
+                <h2>No collections yet</h2>
+                <p>Add a collection to get started!</p>
+            </div>
+        }
+        @else {
+            @for(collection of collections; track collection.id){
+                <div class="collection">
+                    <div class="collection-info" [routerLink]="['/collections', collection.id]">
+                        <h2>{{collection.name}}</h2>
+                        <p>Caught: {{collection.caught.length}}/{{getCollectionCount(collection)}}</p>
+                        <p>Shiny: {{collection.shiny.length}}/{{getCollectionCount(collection)}}</p>
+                    </div>
+                    <button class="delete-button" (click)="deleteCollection(collection.id)">🗑️</button>
+                </div>
+            }
+        }
+        </div>
+    </div>
+    <div class="collections-sidebar">
+        <button class="add-custom-button" routerLink="/collection-settings">+ Create Custom Collection</button>
+        <button class="add-preset-button">+ Create Collection from Preset</button>
+        <h2>Region Presets</h2>
+        <div class="preset-list">
+            <button type="button" (click)="createNationalPreset()" [disabled]="creatingPreset">National Pokédex</button>
+            <button type="button" (click)="createRegionPreset('kanto', 'Kanto Pokédex')" [disabled]="creatingPreset">Kanto Pokédex</button>
+            <button type="button" (click)="createRegionPreset('johto', 'Johto Pokédex')" [disabled]="creatingPreset">Johto Pokédex</button>
+            <button type="button" (click)="createRegionPreset('hoenn', 'Hoenn Pokédex')" [disabled]="creatingPreset">Hoenn Pokédex</button>
+            <button type="button" (click)="createRegionPreset('sinnoh', 'Sinnoh Pokédex')" [disabled]="creatingPreset">Sinnoh Pokédex</button>
+            <button type="button" (click)="createRegionPreset('unova', 'Unova Pokédex')" [disabled]="creatingPreset">Unova Pokédex</button>
+            <button type="button" (click)="createRegionPreset('kalos', 'Kalos Pokédex')" [disabled]="creatingPreset">Kalos Pokédex</button>
+            <button type="button" (click)="createRegionPreset('alola', 'Alola Pokédex')" [disabled]="creatingPreset">Alola Pokédex</button>
+            <button type="button" (click)="createRegionPreset('galar', 'Galar Pokédex')" [disabled]="creatingPreset">Galar Pokédex</button>
+            <button type="button" (click)="createRegionPreset('hisui', 'Hisui Pokédex')" [disabled]="creatingPreset">Hisui Pokédex</button>
+            <button type="button" (click)="createRegionPreset('paldea', 'Paldea Pokédex')" [disabled]="creatingPreset">Paldea Pokédex</button>
+    </div>
+</div>

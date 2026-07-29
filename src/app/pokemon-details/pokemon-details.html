@@ -1,13 +1,801 @@
+<app-nav-bar 
+    [pokemonList]="pokemonList" 
+    [showSearchDropdown]="true" 
+    [includeForms]="true" 
+    (searchChanged)="onSearch($event)">
+</app-nav-bar>
+
+
 @if (pokemon && pokemonDetails) {
-    <h1>#{{ pokemonDetails.id }} {{ formatPokemonName() }}</h1>
-    <img
-      [src]="selectedForm?.artwork"
-      [alt]="pokemonDetails.name"
-    >
-    <h2>Types</h2>
-    @for(type of pokemon.types; track type.type.name) {
-        <p>{{ type.type.name }}</p>
+
+<div class="pokemon-page">
+
+
+    <!-- HEADER -->
+
+    <div class="pokemon-header">
+
+        <h1>
+            #{{ pokemonDetails.id }} {{ formatPokemonName() }}
+        </h1>
+
+
+        @if(speciesData) {
+
+            @for(genus of speciesData.genera; track genus.language.name) {
+
+                @if(genus.language.name === 'en') {
+
+                    <p class="pokemon-category">
+                        {{genus.genus}}
+                    </p>
+
+                }
+
+            }
+
+        }
+
+
+        <div class="types">
+
+            @for(type of formPokemon?.types; track type.type.name) {
+
+                <span 
+                class="type" 
+                [class]="type.type.name">
+
+                    {{formatFormName(type.type.name)}}
+
+                </span>
+
+            }
+
+        </div>
+
+    </div>
+
+
+
+    <!-- MAIN -->
+
+    <div class="pokemon-main">
+
+
+        <div class="artwork-card">
+
+            <img 
+            [src]="selectedForm?.artwork"
+            [alt]="pokemonDetails.name">
+
+        </div>
+
+
+
+        <div class="info-card">
+
+    <h2>Information</h2>
+
+    <div class="information-layout">
+
+        <!-- LEFT COLUMN -->
+        <div class="info-column">
+
+            <div class="info-grid">
+
+                <div class="info-box">
+                    <span>Height</span>
+                    <strong>
+                        {{formPokemon ? formPokemon.height / 10 : '-'}} m
+                    </strong>
+                </div>
+
+
+                <div class="info-box">
+                    <span>Weight</span>
+                    <strong>
+                        {{formPokemon ? formPokemon.weight / 10 : '-'}} kg
+                    </strong>
+                </div>
+
+
+                <div class="info-box">
+                    <span>Base Experience</span>
+                    <strong>
+                        {{formPokemon?.base_experience ?? '-'}}
+                    </strong>
+                </div>
+
+
+                <div class="info-box">
+                    <span>Capture Rate</span>
+                    <strong>
+                        {{speciesData?.capture_rate ?? '-'}}
+                    </strong>
+                </div>
+
+
+                <div class="info-box">
+                    <span>Base Happiness</span>
+                    <strong>
+                        {{speciesData?.base_happiness ?? '-'}}
+                    </strong>
+                </div>
+
+
+                <div class="info-box">
+                    <span>Growth Rate</span>
+                    <strong>
+                        {{formatFormName(speciesData?.growth_rate?.name ?? '-')}}
+                    </strong>
+                </div>
+
+
+                <div class="info-box">
+                    <span>Colour</span>
+                    <strong>
+                        {{formatFormName(speciesData?.color?.name ?? '-')}}
+                    </strong>
+                </div>
+
+
+                <div class="info-box">
+                    <span>Shape</span>
+                    <strong>
+                        {{formatFormName(speciesData?.shape?.name ?? '-')}}
+                    </strong>
+                </div>
+
+                @if(speciesData?.habitat) {
+
+                    <div class="info-box">
+                        <span>Habitat</span>
+                        <strong>
+                            {{formatFormName(speciesData.habitat.name)}}
+                        </strong>
+                    </div>
+
+                }
+
+            </div>
+
+        </div>
+
+
+
+        <!-- RIGHT COLUMN -->
+        <div class="breeding-column">
+
+
+            <div class="info-box">
+
+                <span>Egg Groups</span>
+
+                <div class="tag-container">
+
+                    @for(group of speciesData?.egg_groups; track group.name) {
+
+                        <span class="tag">
+                            {{formatFormName(group.name)}}
+                        </span>
+
+                    }
+
+                </div>
+
+            </div>
+
+
+
+            <div class="info-box">
+
+    <span>Gender Ratio</span>
+
+    @if(speciesData && speciesData.gender_rate === -1) {
+
+        <strong>
+            Genderless
+        </strong>
+
     }
-    <p>Height: {{ pokemon.height }}</p>
-    <p>Weight: {{ pokemon.weight }}</p>
+
+    @else if(speciesData) {
+
+    <strong>
+        ♂ {{(8 - speciesData.gender_rate) * 12.5}}%
+    </strong>
+
+    <strong>
+        ♀ {{speciesData.gender_rate * 12.5}}%
+    </strong>
+
+}
+
+
+    @if(speciesData?.has_gender_differences && formPokemon?.sprites?.front_female) {
+
+        <div class="gender-difference">
+
+            <span>
+                Gender Difference
+            </span>
+
+            <div class="gender-images">
+
+                <div>
+                    <p>Male</p>
+                    <img [src]="formPokemon.sprites.front_default">
+                </div>
+
+
+                <div>
+                    <p>Female</p>
+                    <img [src]="formPokemon.sprites.front_female">
+                </div>
+
+            </div>
+
+        </div>
+
+    }
+
+</div>
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+    </div>
+
+
+
+
+    <!-- ABILITIES + STATS -->
+
+
+    @if(formPokemon) {
+
+        <div class="details-grid">
+
+
+            <div class="small-details-grid">
+
+    <div class="info-card abilities-card">
+
+        <h2>Abilities</h2>
+
+        <div class="ability-list">
+
+            @for(ability of formPokemon.abilities; track ability.ability.name) {
+
+                <div class="ability">
+
+                    <strong>
+                        {{formatFormName(ability.ability.name)}}
+                    </strong>
+
+                    @if(ability.is_hidden) {
+
+                        <span>
+                            Hidden
+                        </span>
+
+                    }
+
+                </div>
+
+            }
+
+        </div>
+
+    </div>
+
+
+    @if(speciesData) {
+
+        <div class="info-card pokedex-entry">
+
+            <h2>Pokédex Entry</h2>
+
+            <p>
+                {{getFlavorText()}}
+            </p>
+
+        </div>
+
+    }
+
+</div>
+
+
+
+            <div class="info-card">
+
+                <h2>Base Stats</h2>
+
+
+                @for(stat of formPokemon.stats; track stat.stat.name) {
+
+                    <div class="stat">
+
+                        <span>
+                            {{formatFormName(stat.stat.name)}}
+                        </span>
+
+
+                        <div class="stat-bar">
+
+                            <div 
+                            class="stat-fill"
+                            [style.width.%]="stat.base_stat / 2">
+                            </div>
+
+                        </div>
+
+
+                        <span>
+                            {{stat.base_stat}}
+                        </span>
+
+
+                    </div>
+
+                }
+
+            </div>
+
+
+        </div>
+
+    }
+
+
+        <!-- MOVES -->
+
+<div class="moves-container">
+
+<h2>Moves</h2>
+
+
+<div class="move-columns">
+
+
+<!-- LEVEL UP -->
+
+<div class="move-column">
+
+<h3>Level Up</h3>
+
+@for(move of moveGroups.levelUp; track move.id + move.level) {
+
+<div 
+class="move-card"
+[style.background]="getMoveTypeColour(move.type)">
+
+
+<div class="move-header">
+
+<strong>
+{{formatFormName(move.name)}}
+</strong>
+
+<span>
+Lv {{move.level}}
+</span>
+
+</div>
+
+
+<div class="move-details">
+
+<span>
+{{formatFormName(move.type)}}
+</span>
+
+<span>
+{{formatFormName(move.damageClass)}}
+</span>
+
+<span>
+Power {{move.power ?? '-'}}
+</span>
+
+<span>
+Acc {{move.accuracy ?? '-'}}
+</span>
+
+<span>
+PP {{move.pp}}
+</span>
+
+</div>
+
+
+</div>
+
+}
+
+</div>
+
+
+
+<!-- TM -->
+
+<div class="move-column">
+
+<h3>TM</h3>
+
+@for(move of moveGroups.tm; track move.id) {
+
+<div 
+class="move-card"
+[style.background]="getMoveTypeColour(move.type)">
+
+<div class="move-header">
+
+<strong>
+{{formatFormName(move.name)}}
+</strong>
+
+</div>
+
+
+<div class="move-details">
+
+<span>
+{{formatFormName(move.type)}}
+</span>
+
+<span>
+{{formatFormName(move.damageClass)}}
+</span>
+
+<span>
+Power {{move.power ?? '-'}}
+</span>
+
+</div>
+
+
+</div>
+
+}
+
+</div>
+
+
+
+<!-- TUTOR -->
+
+<div class="move-column">
+
+<h3>Tutor</h3>
+
+@for(move of moveGroups.tutor; track move.id) {
+
+<div 
+class="move-card"
+[style.background]="getMoveTypeColour(move.type)">
+
+<div class="move-header">
+
+<strong>
+{{formatFormName(move.name)}}
+</strong>
+
+</div>
+
+<div class="move-details">
+
+<span>
+{{formatFormName(move.type)}}
+</span>
+
+<span>
+{{formatFormName(move.damageClass)}}
+</span>
+
+</div>
+
+</div>
+
+}
+
+</div>
+
+
+
+<!-- EGG -->
+
+<div class="move-column">
+
+<h3>Egg</h3>
+
+@for(move of moveGroups.egg; track move.id) {
+
+<div 
+class="move-card"
+[style.background]="getMoveTypeColour(move.type)">
+
+<strong>
+{{formatFormName(move.name)}}
+</strong>
+
+</div>
+
+}
+
+</div>
+
+
+</div>
+
+</div>
+
+
+
+
+    <!-- FORMS -->
+
+    <div class="forms-card">
+
+        <h2>Forms</h2>
+
+
+        <div class="forms-grid">
+
+            @for(form of pokemonDetails.forms; track form.name) {
+
+                <button (click)="selectForm(form)">
+
+                    <img [src]="form.artwork">
+
+
+                    <p>
+                        {{formatFormName(form.formName || form.name)}}
+                    </p>
+
+                </button>
+
+            }
+
+        </div>
+
+
+    </div>
+
+
+
+</div>
+
+}
+
+@if(formPokemon?.sprites) {
+
+<div class="info-card sprites-card">
+
+    <h2>Sprites & Models</h2>
+
+
+    <!-- Official Artwork -->
+    <div class="sprite-section">
+
+        <h3>Official Artwork</h3>
+
+        <div class="sprites-grid">
+
+            @if(formPokemon.sprites.other?.['official-artwork']?.front_default) {
+
+                <div class="sprite">
+
+                    <img [src]="formPokemon.sprites.other['official-artwork'].front_default">
+
+                    <span>
+                        Official Artwork
+                    </span>
+
+                </div>
+
+            }
+
+        </div>
+
+    </div>
+
+
+
+    <!-- Pokemon Home -->
+    @if(formPokemon.sprites.other?.home) {
+
+        <div class="sprite-section">
+
+            <h3>Pokémon Home</h3>
+
+
+            <div class="sprites-grid">
+
+
+                @if(formPokemon.sprites.other.home.front_default) {
+
+                    <div class="sprite">
+
+                        <img [src]="formPokemon.sprites.other.home.front_default">
+
+                        <span>
+                            Home
+                        </span>
+
+                    </div>
+
+                }
+
+
+                @if(formPokemon.sprites.other.home.front_shiny) {
+
+                    <div class="sprite">
+
+                        <img [src]="formPokemon.sprites.other.home.front_shiny">
+
+                        <span>
+                            Home Shiny
+                        </span>
+
+                    </div>
+
+                }
+
+
+            </div>
+
+        </div>
+
+    }
+
+
+
+    <!-- Game Sprites -->
+
+    @for(generation of getSpriteGenerations(); track generation) {
+
+
+        <div class="generation-sprites">
+
+
+            <h3>
+                {{formatFormName(generation)}}
+            </h3>
+
+
+
+            @for(game of getSpriteGames(generation); track game) {
+
+
+                <div class="game-sprites">
+
+
+                    <h4>
+                        {{formatFormName(game)}}
+                    </h4>
+
+
+                    <div class="sprites-grid">
+
+
+                        @for(sprite of getSpriteList(generation, game); track sprite.url) {
+
+
+                            <div class="sprite">
+
+
+                                <img 
+                                [src]="sprite.url"
+                                [alt]="sprite.name">
+
+
+                                <span>
+                                    {{formatSpriteName(sprite.name)}}
+                                </span>
+
+
+                            </div>
+
+
+                        }
+
+
+
+                    </div>
+
+
+                </div>
+
+
+            }
+
+
+        </div>
+
+
+    }
+
+
+
+    <!-- Modern Games -->
+
+    <div class="generation-sprites">
+
+
+        <h3>
+            Generation VIII
+        </h3>
+
+
+        <div class="sprites-grid">
+
+
+            @for(sprite of getModernSpritesByGame('sword-shield'); track sprite.url) {
+
+
+                <div class="sprite">
+
+                    <img [src]="sprite.url">
+
+                    <span>
+                        {{formatSpriteName(sprite.name)}}
+                    </span>
+
+                </div>
+
+
+            }
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <div class="generation-sprites">
+
+
+        <h3>
+            Generation IX
+        </h3>
+
+
+        <div class="sprites-grid">
+
+
+            @for(sprite of getModernSpritesByGame('scarlet-violet'); track sprite.url) {
+
+
+                <div class="sprite">
+
+                    <img [src]="sprite.url">
+
+                    <span>
+                        {{formatSpriteName(sprite.name)}}
+                    </span>
+
+                </div>
+
+
+            }
+
+
+        </div>
+
+
+    </div>
+
+
+</div>
+
 }

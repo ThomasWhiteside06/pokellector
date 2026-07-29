@@ -1,0 +1,14 @@
+@for(form of collection.selectedForms; track form){
+    <div>
+        <h3>{{form}}</h3>
+        <button (click)="toggleCaught(form)">Caught</button>
+        <button (click)="toggleShiny(form)">Shiny</button>
+        <img [src]="getArtwork(form)" [class.uncaught]="!collection.caught.includes(form)">
+        @if(collection.caught.includes(form)){
+            <p>✅ Caught</p>
+        }
+        @if(collection.shiny.includes(form)){
+            <p>✨ Shiny</p>
+        }
+    </div>
+}

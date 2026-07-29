@@ -1,0 +1,32 @@
+<div class="collection-header">
+    <div class="collection-title">
+        <button class="back-button" (click)="goBack()">← Back</button>
+        <h1 class = 'title'>{{ collection.name }}</h1>
+        <div class="collection-stats">
+            <p>Caught: {{ collection.caught.length }}/{{ totalPokemon }}</p>
+            <p>Shiny: {{ collection.shiny.length }}/{{ totalPokemon }}</p>
+        </div>
+    </div>
+</div>
+<div class="search-container">
+<app-search
+    [pokemonList]="displayPokemon"
+    [showDropdown]="false"
+    [includeForms]="true"
+    [navigateOnSelect]="false"
+    (searchChanged)="filterCollection($event)">
+</app-search>
+</div>
+<div class="pokemon-grid">
+    @for (pokemon of filteredPokemon; track $index) {
+        <app-pokemon-card
+            [pokemon]="pokemon.pokemon!"
+            [customArtwork]="pokemon.artwork"
+            [customShinyArtwork]="pokemon.shinyArtwork"
+            [gender]="pokemon.gender"
+            [allowedForms]="collection.selectedForms"
+            [showFormPopup]="false"
+            [collection]="collection">
+        </app-pokemon-card>
+    }
+</div>

@@ -1,8 +1,16 @@
-<div id = 'nav-bar-container'>
-    <h1 id = 'title'>Pokéllector</h1>
-    <div id = 'right-container'>
-        <button id = 'collections-button'>Collections</button>
-        <button id = 'sort'>Sort</button>
-        <input type = 'text' id = 'search-bar' placeholder = 'Search...' (input) = 'onSearch($event)'>
+<div id="nav-bar-container">
+    <h1 id="title" routerLink="/">Pokéllector</h1>
+    <div id="right-container">
+        <button id="collections-button" routerLink="/collections"> Collections</button>
+        <div class="sort-container">
+            <button class="sort" (click)="showSort = !showSort">Sort</button>
+            @if(showSort) {
+                <div class="sort-dropdown">
+                    <button (click)="changeSort('number')">Pokédex Number</button>
+                    <button (click)="changeSort('name')">Name</button>
+                </div>
+            }
+        </div>
+        <app-search [pokemonList]="pokemonList" [showDropdown]="showSearchDropdown" [includeForms]="includeForms" [navigateOnSelect]="true" (searchChanged)="searchChanged.emit($event)"></app-search>
     </div>
 </div>
