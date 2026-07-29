@@ -31,71 +31,23 @@ export class CollectionDetails implements OnInit {
     if (!collection) return;
     this.collection = collection;
     this.pokemonService.getPokemonListItems().subscribe(list => {
-  this.pokemonList = list;
-  this.displayPokemon = [];
-
-  list.forEach(pokemon => {
-
-    pokemon.forms.forEach(form => {
-
-      if (!collection.selectedForms.includes(form.name)) {
-        return;
-      }
-
-      if (
-        collection.showGenderDifferences &&
-        form.hasGenderDifference
-      ) {
-
-        this.displayPokemon.push({
-          pokemon,
-          artwork: form.artwork,
-          shinyArtwork: form.shinyArtwork,
-          formName: form.name,
-          gender: 'male'
-        });
-
-        this.displayPokemon.push({
-          pokemon,
-          artwork: form.femaleArtwork!,
-          shinyArtwork: form.femaleShinyArtwork,
-          formName: form.name,
-          gender: 'female'
-        });
-
-      } else {
-
-        this.displayPokemon.push({
-          pokemon,
-          artwork: form.artwork,
-          shinyArtwork: form.shinyArtwork,
-          formName: form.name,
-        });
-
-      }
-
+    this.pokemonList = list;
+    this.displayPokemon = [];
+    list.forEach(pokemon => {
+      pokemon.forms.forEach(form => {
+        if (!collection.selectedForms.includes(form.name)) {return;}
+        if (collection.showGenderDifferences && form.hasGenderDifference) {
+          this.displayPokemon.push({pokemon, artwork: form.artwork, shinyArtwork: form.shinyArtwork, formName: form.name, gender: 'male'});
+          this.displayPokemon.push({pokemon, artwork: form.femaleArtwork!, shinyArtwork: form.femaleShinyArtwork, formName: form.name, gender: 'female'});
+        } else {this.displayPokemon.push({pokemon, artwork: form.artwork, shinyArtwork: form.shinyArtwork, formName: form.name,});}
+      });
     });
 
-  });
-
-  console.log(
-    "Displayed:",
-    this.displayPokemon.length,
-    "Expected:",
-    collection.selectedForms.length
-  );
-
-  const displayedNames = this.displayPokemon.map(p => p.formName);
-
-  const missing = collection.selectedForms.filter(
-    form => !displayedNames.includes(form)
-  );
-
-  console.log("Missing:", missing);
-
-  this.filteredPokemon = [...this.displayPokemon];
-  this.cdr.detectChanges();
-});
+      const displayedNames = this.displayPokemon.map(p => p.formName);
+      const missing = collection.selectedForms.filter(form => !displayedNames.includes(form));
+      this.filteredPokemon = [...this.displayPokemon];
+      this.cdr.detectChanges();
+    });
   }
 
   filterCollection(search: string) {

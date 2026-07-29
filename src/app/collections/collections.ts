@@ -99,22 +99,16 @@ export class Collections {
   }
 
   createRegionPreset(region: string, name: string) {
-    const selectedForms = this.pokemonList
-        .filter(pokemon => pokemon.region.includes(region))
-        .map(pokemon => {
+    const selectedForms = this.pokemonList.filter(pokemon => pokemon.region.includes(region)).map(pokemon => {
             const defaultForm = pokemon.forms.find(form => form.isDefault);
             return defaultForm?.name ?? pokemon.name;
         });
-    this.collectionService.createCollection(
-        name,
-        selectedForms
-    );
+    this.collectionService.createCollection(name, selectedForms);
     this.cdr.detectChanges();
   }
 
   getCollectionCount(collection: Collection): number {
     let count = 0;
-
     this.pokemonList.forEach(pokemon => {
       pokemon.forms.forEach(form => {
         if (!collection.selectedForms.includes(form.name)) {return;}

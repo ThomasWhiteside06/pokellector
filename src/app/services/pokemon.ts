@@ -120,9 +120,7 @@ export class PokemonService {
         "three",
         "own-tempo"
         ];
-        
         if (form.name.includes('crowned') || form.name.includes('terastal') || form.name.includes('school') || form.name.includes('complete') || form.name.includes('ash') || form.name.includes('pirouette') || form.name.includes('zen') && form.name !== 'finizen' || form.name.includes('sunshine') || form.name.includes('arceus') && form.name !== 'arceus-normal' || form.name.includes('silvally') || form.name.includes('mega') && form.name !== 'meganium' && form.name !== 'yanmega' || form.name.includes('gmax') || form.name.includes('gigatamax') || form.name.includes('burmy') && form.name !== 'burmy-plant') {return true}
-
         return (
             form.pokemonId !== pokemon.id &&
             !form.isBattleOnly &&
@@ -213,7 +211,6 @@ export class PokemonService {
             "poke-ball",
             "sandy"
         ];
-
         return !excludedKeywords.some(keyword =>form.name.includes(keyword)) || form.name === 'arceus-normal' || form.name === 'silvally-normal' || form.name === 'finizen' || form.name.includes("vivillon") || form.name === 'magearna-original' || form.name.includes("burmy") || form.name.includes("wormadam") || form.name === "pikachu-original-cap";
     }
 

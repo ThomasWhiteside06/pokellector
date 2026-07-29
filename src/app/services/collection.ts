@@ -66,11 +66,7 @@ export class CollectionService {
     }
     return pokemonList.filter(item => {
         const pokemon = item.pokemon;
-        return (
-            pokemon.name.includes(search) ||
-            pokemon.id.toString().includes(search) ||
-            item.formName.includes(search)
-        );
+        return (pokemon.name.includes(search) || pokemon.id.toString().includes(search) || item.formName.includes(search));
     });
   }
 

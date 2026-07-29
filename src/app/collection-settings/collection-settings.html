@@ -18,7 +18,8 @@
         @for(result of filteredPokemon; track result.name) {
             <div class="search-result" [class.selected]="isSelected(result)"  [class.range-start]="isToggleStart(result)" (click)="selectPokemon(result)">
                 <img [src]="result.artwork" width="50">
-                <span>{{formatName(result.pokemonName)}}
+                <span>
+                    {{formatName(result.pokemonName)}}
                     @if(result.name !== result.pokemonName && formatFormName(result.name, result.pokemonName)) {
                         ({{formatFormName(result.name, result.pokemonName)}})
                     }
@@ -47,12 +48,7 @@
                         ({{formatFormName(pokemon.name, pokemon.pokemonName)}})
                     }
                 </span>
-                <button 
-                    (click)="togglePokemon(pokemon)"
-                >
-                    Remove
-                </button>
-
+                <button (click)="togglePokemon(pokemon)">Remove</button>
             </div>
         }
     </div>

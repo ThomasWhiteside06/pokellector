@@ -92,7 +92,7 @@ export class CollectionSettings implements OnInit {
     this.toggleAllMode = false;
     this.toggleStartIndex = null;
     this.toggleStartPokemon = null;
-}
+  }
 
   toggleAllSelectionMode() {
     this.toggleAllMode = !this.toggleAllMode;

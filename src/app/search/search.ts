@@ -33,7 +33,7 @@ export class Search {
     if (this.showDropdown && !this.collectionMode) {
         this.searchResults = this.pokemonService.searchPokemonWithForms(this.pokemonList as PokemonListItem[], value, this.includeForms);
     }
-}
+  }
 
   selectPokemon(result: PokemonSearchResult) {
     this.pokemonSelected.emit(result);

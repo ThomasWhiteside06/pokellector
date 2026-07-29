@@ -12,7 +12,7 @@ import { Collection } from '../models/collection';
   templateUrl: './pokemon-card.html',
   styleUrl: './pokemon-card.css',
 })
-export class PokemonCard implements OnChanges{
+export class PokemonCard{
   @Input() pokemon!: PokemonListItem;
   @Input() allowedForms: string[] | null = null;
   @Input() showFormPopup = true;
@@ -24,16 +24,11 @@ export class PokemonCard implements OnChanges{
   showForms = false;
   showFormsLeft = false;
 
-  constructor (private pokemonService: PokemonService, private collectionService: CollectionService) {
-    console.log('PokemonCard CREATED');
-  }
+  constructor (private pokemonService: PokemonService, private collectionService: CollectionService) {}
 
-  ngOnChanges() {
-    console.log('PokemonCard received:', this.pokemon);
-    console.log('Collection:', this.collection);
+  formatFormName(name: string): string {
+    return name.replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
   }
-
-  formatFormName(name: string): string {return name.replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase());}
 
   hasPermanentForms(): boolean {
     return this.visibleForms().length > 0;
@@ -100,8 +95,8 @@ export class PokemonCard implements OnChanges{
 
   getArtwork(): string {
     if (this.isShiny()) {
-        if (this.customShinyArtwork) {return this.customShinyArtwork;}
-        return this.pokemon.forms[0].shinyArtwork;
+      if (this.customShinyArtwork) {return this.customShinyArtwork;}
+      return this.pokemon.forms[0].shinyArtwork;
     }
     if (this.customArtwork) {return this.customArtwork;}
     return this.pokemon.forms[0].artwork;
@@ -110,5 +105,5 @@ export class PokemonCard implements OnChanges{
   private getCollectionKey(formName: string): string {
     if (!this.gender) {return formName;}
     return `${formName}|${this.gender}`;
-}
+  }
 }
