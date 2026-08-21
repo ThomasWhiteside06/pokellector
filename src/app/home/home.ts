@@ -2,7 +2,7 @@ import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { NavBar } from '../nav-bar/nav-bar';
 import { PokemonService } from '../services/pokemon';
 import { PokemonCard } from '../pokemon-card/pokemon-card';
-import { PokemonListItem, PokemonForms, PokemonForm } from '../models/pokemon-list';
+import { PokemonListItem, PokemonForms } from '../models/pokemon-list';
 
 @Component({
   selector: 'app-home',
@@ -20,8 +20,6 @@ export class Home implements OnInit{
 
   ngOnInit() {
     this.pokemonService.getPokemonListItems().subscribe(list => {
-      console.log('Pokemon list:', list);
-      console.log('Length:', list.length);
       this.pokemonList = list;
       this.filteredPokemonList = [...list];
       this.cdr.detectChanges();
@@ -33,6 +31,6 @@ export class Home implements OnInit{
   }
 
   sortPokemon(sort: string) {
-    if(sort === 'name') {this.filteredPokemonList.sort((a,b) =>a.name.localeCompare(b.name));} else {this.filteredPokemonList.sort((a,b) =>a.id - b.id);}
+    if(sort === 'name') {this.filteredPokemonList.sort((a,b) =>a.name.localeCompare(b.name));} else {this.filteredPokemonList.sort((a, b) =>a.id - b.id);}
   }
 }

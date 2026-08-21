@@ -17,21 +17,12 @@ export class Collections {
   creatingPreset = false;
   pokemonList: PokemonListItem[] = [];
 
-  constructor(private collectionService:CollectionService, private router: Router, public pokemonService: PokemonService, private cdr:ChangeDetectorRef){}
+  constructor(private collectionService: CollectionService, private router: Router, public pokemonService: PokemonService, private cdr: ChangeDetectorRef){}
 
   ngOnInit() {
     this.pokemonService.getPokemonListItems()
       .subscribe(pokemon => {
         this.pokemonList = pokemon;
-        console.log(
-                "Basculegion:",
-                pokemon.find(p => p.id === 902)
-            );
-
-            console.log(
-                "Enamorus:",
-                pokemon.find(p => p.id === 905)
-            );
         this.cdr.detectChanges();
       });
       
@@ -90,11 +81,7 @@ export class Collections {
         const defaultForm = pokemon.forms.find(form => form.isDefault);
         return defaultForm?.name ?? pokemon.name;
     });
-    this.collectionService.createCollection(
-        'National Pokédex',
-        selectedForms,
-        false
-    );
+    this.collectionService.createCollection('National Pokédex', selectedForms, false);
     this.cdr.detectChanges();
   }
 
@@ -111,8 +98,8 @@ export class Collections {
     let count = 0;
     this.pokemonList.forEach(pokemon => {
       pokemon.forms.forEach(form => {
-        if (!collection.selectedForms.includes(form.name)) {return;}
-        if (collection.showGenderDifferences && form.hasGenderDifference) {count += 2;} else {count++;}
+        if (!collection.selectedForms.includes(form.name)) {return}
+        if (collection.showGenderDifferences && form.hasGenderDifference) {count += 2} else {count++}
       });
     });
     return count;

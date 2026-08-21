@@ -36,7 +36,7 @@ export class CollectionSettings implements OnInit {
         this.displayPokemon = [];
         list.forEach(pokemon => {
             pokemon.forms.forEach(form => {
-                if (!this.pokemonService.isCollectionForm(form)) {return;}
+                if (!this.pokemonService.isCollectionForm(form)) {return}
                 this.displayPokemon.push({id: form.pokemonId, name: form.name, pokemonName: pokemon.name, artwork: form.artwork});
             });
         });
@@ -56,15 +56,12 @@ export class CollectionSettings implements OnInit {
 
   togglePokemon(result: PokemonSearchResult) {
     const exists = this.selectedForms.some(p => p.name === result.name);
-    if(exists){this.selectedForms = this.selectedForms.filter(p => p.name !== result.name);} else {this.selectedForms.push(result);}
+    if(exists){this.selectedForms = this.selectedForms.filter(p => p.name !== result.name)} else {this.selectedForms.push(result)}
   }
 
   createCollection() {
-    console.log("Create button clicked");
-    console.log("Name:", this.collectionName);
-    console.log("Selected:", this.selectedForms);
-    if (!this.collectionName.trim()) {alert('Please enter a collection name');return;}
-    if (!this.selectedForms.length) {alert('Please select at least one Pokémon');return;}
+    if (!this.collectionName.trim()) {alert('Please enter a collection name'); return}
+    if (!this.selectedForms.length) {alert('Please select at least one Pokémon'); return}
     this.collectionService.createCollection(this.collectionName, this.selectedForms.map(p => p.name), this.showGenderDifferences);
     this.router.navigate(['/collections']);
   }
@@ -117,10 +114,7 @@ export class CollectionSettings implements OnInit {
   }
 
   formatFormName(formName: string, speciesName: string): string {
-    const ignoredForms = [
-        'koraidon-apex-build',
-        'miraidon-ultimate-mode'
-    ];
+    const ignoredForms = ['koraidon-apex-build', 'miraidon-ultimate-mode'];
     if (ignoredForms.includes(formName)) {return ''}
     let name = formName;
     if (name.startsWith(speciesName + '-')) {name = name.substring(speciesName.length + 1);}
@@ -130,5 +124,4 @@ export class CollectionSettings implements OnInit {
   goBack() {
     this.router.navigate(['/collections']);
   }
-
 }

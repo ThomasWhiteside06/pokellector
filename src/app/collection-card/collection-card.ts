@@ -18,8 +18,8 @@ export class CollectionCard {
   constructor(private collectionService:CollectionService, private pokemonService:PokemonService){}
 
   ngOnInit(){
-    this.pokemonService.getPokemonListItems().subscribe(list=>{this.pokemonList=list});
-}
+    this.pokemonService.getPokemonListItems().subscribe(list => {this.pokemonList=list});
+  }
 
   toggleCaught(name:string){
     this.collectionService.toggleCaught(this.collection, name);

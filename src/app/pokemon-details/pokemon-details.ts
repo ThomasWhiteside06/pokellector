@@ -43,7 +43,7 @@ export class PokemonDetails implements OnInit {
       forkJoin({pokemon: this.pokemonService.getPokemon(name), list: this.pokemonService.getPokemonListItems()}).subscribe(({ pokemon, list }) => {
         this.pokemon = pokemon;
         this.pokemonList = list;
-        this.pokemonService.getPokemonSpecies(pokemon.id).subscribe(species => {console.log("Species data:", species);this.speciesData = species;});
+        this.pokemonService.getPokemonSpecies(pokemon.id).subscribe(species => {this.speciesData = species;});
         const species = list.find(p => p.name === name || p.forms.some(f => f.name === name));
         this.pokemonDetails = species ?? null;
         if (species) {this.selectedForm = species.forms.find(f => f.name === name) ?? species.forms.find(f => f.isDefault) ?? null;}
@@ -68,13 +68,10 @@ export class PokemonDetails implements OnInit {
     capitalize(value: string): string {return value.replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase())}
 
   formatFormName(name: string): string {
-    return name
-        .replace(/-/g, ' ')
-        .replace(/\b\w/g, char => char.toUpperCase());
+    return name.replace(/-/g, ' ').replace(/\b\w/g, char => char.toUpperCase());
   }
 
   selectForm(form: PokemonForm) {
-    console.log("Selecting:", form.name, form.pokemonId);
     this.selectedForm = form;
     this.formPokemon = null;
     this.loadFormDetails(form);
@@ -261,7 +258,7 @@ export class PokemonDetails implements OnInit {
             };
         });
         this.moveGroups = {
-            levelUp: allMoves.filter(m =>m.methods.some((x:any)=>x.move_learn_method.name === 'level-up')).map(m => ({...m, level: Math.min(...m.methods.filter((x:any) => x.move_learn_method.name === 'level-up').map((x:any) => x.level_learned_at).filter((level:any) => level > 0))})).sort((a,b) => a.level - b.level),
+            levelUp: allMoves.filter(m =>m.methods.some((x:any)=>x.move_learn_method.name === 'level-up')).map(m => ({...m, level: Math.min(...m.methods.filter((x:any) => x.move_learn_method.name === 'level-up').map((x:any) => x.level_learned_at).filter((level:any) => level > 0))})).sort((a, b) => a.level - b.level),
             tm: allMoves.filter(m =>m.methods.some((x:any)=>x.move_learn_method.name === 'machine')),
             tutor: allMoves.filter(m =>m.methods.some((x:any)=>x.move_learn_method.name === 'tutor')),
             egg: allMoves.filter(m =>m.methods.some((x:any)=>x.move_learn_method.name === 'egg')),

@@ -37,7 +37,6 @@ export class PokemonService {
         forms: this.getPokemonForms()
         }).pipe(
         map(({ pokedex, types, forms }) => {
-
             return pokedex.pokemon_entries.map(entry => {
                 const pokemonTypes = types.find( t => t.id === entry.entry_number);
                 const pokemonForms = forms.find(f => f.speciesId === entry.entry_number);

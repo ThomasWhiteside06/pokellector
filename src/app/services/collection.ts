@@ -55,15 +55,9 @@ export class CollectionService {
     return this.collections.find(c => c.id === id);
   }
 
-  filterCollectionPokemon(
-    pokemonList: CollectionDisplayPokemon[],
-    collection: Collection,
-    searchTerm: string
-): CollectionDisplayPokemon[] {
+  filterCollectionPokemon(pokemonList: CollectionDisplayPokemon[], collection: Collection, searchTerm: string): CollectionDisplayPokemon[] {
     const search = searchTerm.toLowerCase().trim();
-    if (!search) {
-        return [...pokemonList];
-    }
+    if (!search) {return [...pokemonList];}
     return pokemonList.filter(item => {
         const pokemon = item.pokemon;
         return (pokemon.name.includes(search) || pokemon.id.toString().includes(search) || item.formName.includes(search));
@@ -91,7 +85,6 @@ export class CollectionService {
         if (collection.showGenderDifferences && form.hasGenderDifference) {count += 2;} else {count++;}
       });
     });
-
     return count;
   }
 }

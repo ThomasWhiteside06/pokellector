@@ -10,7 +10,6 @@ import { PokemonService } from '../services/pokemon';
   styleUrl: './search.css'
 })
 export class Search {
-
   constructor(private pokemonService: PokemonService, private router: Router) {}
   @Input() pokemonList: (PokemonListItem | CollectionDisplayPokemon)[] = [];
   @Input() collectionMode = false;

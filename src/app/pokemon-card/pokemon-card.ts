@@ -1,5 +1,5 @@
-import { Component, Input, OnChanges, ElementRef, ViewChild } from '@angular/core';
-import { PokemonListItem, PokemonForm, CollectionDisplayPokemon } from '../models/pokemon-list';
+import { Component, Input, ElementRef, ViewChild } from '@angular/core';
+import { PokemonListItem, PokemonForm } from '../models/pokemon-list';
 import { RouterLink } from '@angular/router';
 import { PokemonService } from '../services/pokemon';
 import { CollectionService } from '../services/collection';

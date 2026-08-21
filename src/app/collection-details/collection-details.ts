@@ -42,9 +42,6 @@ export class CollectionDetails implements OnInit {
         } else {this.displayPokemon.push({pokemon, artwork: form.artwork, shinyArtwork: form.shinyArtwork, formName: form.name,});}
       });
     });
-
-      const displayedNames = this.displayPokemon.map(p => p.formName);
-      const missing = collection.selectedForms.filter(form => !displayedNames.includes(form));
       this.filteredPokemon = [...this.displayPokemon];
       this.cdr.detectChanges();
     });
